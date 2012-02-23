@@ -1,6 +1,6 @@
 import re
 
-from creole import Parser
+from creole import CreoleParser as Parser
 from pygments import highlight
 from pygments.formatters import HtmlFormatter
 from pygments.lexers import get_lexer_by_name, TextLexer
